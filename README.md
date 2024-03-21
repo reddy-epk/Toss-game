@@ -1,4 +1,4 @@
-Building a random **Coin Toss Game** 
+Building a React random **Coin Toss Game** 
 
 ### Refer to the image below:
 
