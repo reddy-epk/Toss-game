@@ -1,4 +1,4 @@
-In this project, let's build a **Coin Toss Game** by applying the concepts we have learned till now.
+Building a random **Coin Toss Game** 
 
 ### Refer to the image below:
 
@@ -27,32 +27,7 @@ In this project, let's build a **Coin Toss Game** by applying the concepts we ha
 - Start up the app using `npm start`
 </details>
 
-### Completion Instructions
 
-<details>
-<summary>Functionality to be added</summary>
-<br/>
-
-The app must have the following functionalities
-
-- Initially, the app should have heads image and total, heads, tails counts as **0**
-- When the **Toss Coin** button is clicked, then the toss result should be generated using the below expression
-
-  ```
-  const tossResult = Math.floor(Math.random() * 2)
-  ```
-
-- If the number generated from the given expression is `0` then the result should be `heads` or else the result should be `tails`
-- When the **Toss Coin** is clicked, and the result is `heads` then
-  - The heads image should be displayed
-  - The heads count should be incremented by one
-  - The total should be incremented by one
-- When the **Toss Coin** is clicked, and the result is `tails` then
-  - The tails image should be displayed
-  - The tails count should be incremented by one
-  - The total should be incremented by one
-
-</details>
 
 <details>
 <summary>Implementation Files</summary>
@@ -64,18 +39,7 @@ Use these files to complete the implementation:
 - `src/components/CoinToss/index.css`
 </details>
 
-### Important Note
 
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instructions are required for the tests to pass**
-
-- The toss result image should have the alt attribute value as **toss result**
-
-</details>
 
 ### Resources
 
